@@ -1,0 +1,47 @@
+# visual studio / c# / .net framework
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+[Tt]est[Rr]esults/
+packages/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.cache
+*.pdb
+*.mdb
+*.log
+_ReSharper*/
+*.DotSettings.user
+.vscode/
+.idea/
+
+# fichiers temporaires
+*.tmp
+*.bak
+*.orig
+*.swp
+*~
+
+# credentials locaux : ne jamais commit de vrais mots de passe
+*.local.config
+*.Local.config
+.env
+.env.*
+!.env.example
+secrets.json
+**/connectionStrings.local.json
+
+# sorties des outils
+*.publishsettings
+*.pubxml.user
+*.pfx
+*.key
+
+# important : conserver les .dbml et leurs .designer.cs dans git
+# conserver egalement les fichiers .sql, .cs, .Designer.cs et .resx
